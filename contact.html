@@ -1,0 +1,93 @@
+
+<html>
+<head>
+  <title>Contact Us | mae ice cream</title>
+  <style>
+    body {
+      margin: 20px;
+    }
+
+    h1 {
+   color:black;
+      font-size: 30px;
+  text-align:center; 
+      font-size:50px;
+      width: 1100px;
+      height: 56px;
+      background-color:brown;
+      text-shadow: 4px 2px white; 
+    }
+
+    p {
+      color: brown;
+      font-size: 16px;
+      line-height: 1.5;
+ font-weight: bold;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+ font-weight: bold;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: brown;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid;brown
+      margin-bottom: 10px;
+    }
+
+    button[type="submit"],
+    button {
+      background-color:brown;
+      color: ;brown
+      padding: 20px 30px;
+      border: none;
+      border-radius: 4px;
+      font-size: 20px;
+      cursor: pointer;
+ font-weight: bold;
+    }
+
+    button:hover {
+      background-color: broen;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Us</h1>
+  <p>Do you have any questions or feedback for us? We would love to hear from you! You can reach us by phone, email, or by filling out the form below:</p>
+  <ul>
+    <li>Phone: 0963-259-7020</li>
+    <li>Email: mae ice crem@yahoo.com</li>
+  </ul>
+  <form action="submit-form.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+    <button type="submit">Send</button>
+    <button onclick="window.location.href = 'right.html';">Home</button>
+  </form>
+</body>
+</html>
